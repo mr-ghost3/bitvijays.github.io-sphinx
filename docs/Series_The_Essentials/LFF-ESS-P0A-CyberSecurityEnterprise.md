@@ -1,6 +1,6 @@
 # The Essentials : Cybersecurity in an Enterprise
 
-This blog is about the Cybersecurity in an Enterprise. We would start with a simple concept of two people (Alice and Bob) starting a new company and building it to Micro (\< 10 employees), Small (\< 50 employees), Medium-sized (\< 250 employees), larger company. We would walkthru scenarios where company is affected by security breaches, vulnerability assessments excercises. At each stage of the company, we would provide
+This blog is about the Cybersecurity in an Enterprise. We would start with a simple concept of two people (Alice and Bob) starting a new company and building it to Micro (< 10 employees), Small (< 50 employees), Medium-sized (< 250 employees), larger company. We would walkthru scenarios where company is affected by security breaches, vulnerability assessments excercises. At each stage of the company, we would provide
 
 - How the company can be made secure?
 - What are the challenges faced by the administrators?
@@ -89,7 +89,7 @@ A DNS server hosts the information that enables client computers to resolve memo
 
 #### Windows Server Update Services (WSUS) Server
 
-Windows Server Update Services (WSUS) enables information technology administrators to deploy the latest Microsoft product updates. A WSUS server can be the update source for other WSUS servers within the organization. Refer [Deploy Windows Server Update Services in Your Organization](https://technet.microsoft.com/en-us/library/hh852340(v=ws.11).aspx)
+Windows Server Update Services (WSUS) enables information technology administrators to deploy the latest Microsoft product updates. A WSUS server can be the update source for other WSUS servers within the organization. Refer [Deploy Windows Server Update Services in Your Organization](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/deploy/deploy-windows-server-update-services)
 
 #### DHCP Server
 
@@ -98,7 +98,7 @@ Dynamic Host Configuration Protocol (DHCP) servers on your network automatically
 #### Others
 
 - Company decided to take 8 Linux Servers (Debian, CentOS, Arch-Linux and Red-Hat).
-- Added two servers hosting three web-application running on [IIS-WebServer](https://technet.microsoft.com/en-us/library/cc770634(v=ws.11).aspx), [Apache Tomcat](http://tomcat.apache.org/) and [Nginx](https://www.nginx.com/resources/wiki/).
+- Added two servers hosting three web-application running on [IIS-WebServer](https://www.iis.net/overview), [Apache Tomcat](http://tomcat.apache.org/) and [Nginx](https://www.nginx.com/resources/wiki/).
 
 ### Operations Issues
 
@@ -282,7 +282,7 @@ Implement
 
 Allow only allowed applications to be run
 
-- [Software Restriction Policies](https://technet.microsoft.com/en-us/library/hh831534(v=ws.11).aspx): Software Restriction Policies (SRP) is Group Policy-based feature that identifies software programs running on computers in a domain, and controls the ability of those programs to run
+- [Software Restriction Policies](https://docs.microsoft.com/en-us/windows-server/identity/software-restriction-policies/software-restriction-policies): Software Restriction Policies (SRP) is Group Policy-based feature that identifies software programs running on computers in a domain, and controls the ability of those programs to run
 - [Applocker](https://docs.microsoft.com/en-us/windows/device-security/applocker/applocker-overview): AppLocker helps you control which apps and files users can run. These include executable files, scripts, Windows Installer files, dynamic-link libraries (DLLs), packaged apps, and packaged app installers.
 - [Device Guard](https://docs.microsoft.com/en-us/windows/device-security/device-guard/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies): Device Guard is a group of key features, designed to harden a computer system against malware. Its focus is preventing malicious code from running by ensuring only known good code can run.
 
