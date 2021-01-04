@@ -710,27 +710,37 @@ The operators \~ and \~\~ reverse the case of the given text (in PARAMETER).\~ r
 
 #### Example: Parameter ,
 
-    VAR="HACK THE PLANET"
+``` bash
+VAR="HACK THE PLANET"
 
-    echo ${VAR,}
-    hACK THE PLANET
+echo ${VAR,}
+hACK THE PLANET
 
-    echo ${VAR,,}
-    hack the planet
+echo ${VAR,,}
+hack the planet
+```
 
 #### Example: Parameter \~
 
-    VAR="hack the PLANET"
+```bash
+VAR="hack the PLANET"
 
-    echo ${VAR~}
-    Hack The pLANET
+echo ${VAR~}
+Hack The pLANET
 
-    echo ${VAR~~}
-    HACK THE planet
+echo ${VAR~~}
+HACK THE planet
+```
 
 ### Bash Programming
 
 #### Bash For Loop
+
+```bash
+for i in $( ls ); do
+    echo item: $i
+done
+```
 
 #### Bash If Statement
 
