@@ -125,15 +125,14 @@ Viminfo file stores command-line, search string, input-line history and other st
 >     :PluginSearch foo - searches for foo; append `!` to refresh local cache
 >     :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-Bash configuration files - For Debian/Ubuntu based Systems
-----------------------------------------------------------
+## Bash configuration files - For Debian/Ubuntu based Systems
 
 ### Important Files
 
-- \~/.bash\_profile - Stores user environment variables.
-- \~/.bash\_history - contains all the history of the commands.
-- \~/.bash\_logout - contains the command which are executed when bash is exited.
-- \~/.bashrc - setting of variables for bash.
+- ~/.bash_profile - Stores user environment variables.
+- ~/.bash_history - contains all the history of the commands.
+- ~/.bash_logout - contains the command which are executed when bash is exited.
+- ~/.bashrc - setting of variables for bash.
 - /etc/profile - Global system configuration for bash which controls the environmental variables and programs that are to be run when bash is executed. Setting of PATH variable and PS1.
 - /etc/bashrc - Global system configuration for bash which controls the aliases and functions to be run when bash is executed
 
@@ -294,7 +293,7 @@ Debian GNU provides a convenient tool to manage runlevels (to control when servi
     tmux a -t myname              : Attach to session named "myname"
     (Prefix) + d                  : detach
 
-**Windows (Tabs)**
+##### Windows (Tabs)
 
     (Prefix Key) + 
     c  create window
@@ -309,12 +308,12 @@ Debian GNU provides a convenient tool to manage runlevels (to control when servi
     arrow key — switch pane.
     Hold Ctrl+b, don’t release it and hold one of the arrow keys — resize pane.
 
-**tmux.conf**
+##### tmux.conf
 
     # Enable mouse mode (tmux 2.1 and above)
     set -g mouse on
 
-**Reloading tmux config**
+##### Reloading tmux config
 
 If we have made changes to tmux configuration file in the \~/.tmux.conf file, it shouldn’t be necessary to start the server up again from scratch with kill-server. Instead, we can prompt the current tmux session to reload the configuration with the source-file command. This can be done either from within tmux, by pressing Ctrl+B or Prefix key and then : to bring up a command prompt, and typing:
 
@@ -322,11 +321,11 @@ If we have made changes to tmux configuration file in the \~/.tmux.conf file, it
 
 Or simply from a shell:
 
-    $ tmux source-file ~/.tmux.conf
+    tmux source-file ~/.tmux.conf
 
 This should apply your changes to the running tmux server without affecting the sessions or windows within them.
 
-**Copy Paste**
+##### Copy Paste
 
 For copying, Press the Shift key; i.e., Shift-MouseHighlight properly selects text and - still holding down the shift key
 
@@ -470,7 +469,7 @@ A regular expression may be followed by one of several repetition operators:
 - The period (.) matches any single character.
 - ? means that the preceding item is optional, and if found, will be matched at the most, once.
 - \* means that the preceding item will be matched zero or more times.
-- + means the preceding item will be matched one or more times.
+- \+ means the preceding item will be matched one or more times.
 - Matching with times
 
 > - {n} means the preceding item is matched exactly n times,
@@ -478,7 +477,7 @@ A regular expression may be followed by one of several repetition operators:
 > - {n,m} means that the preceding item is matched at least n times, but not more than m times.
 > - {,m} means that the preceding item is matched, at the most, m times.
 
-**grep -e / grep -E**
+##### grep -e / grep -E
 
     Matcher Selection
      -E, --extended-regexp        :  Interpret PATTERN as an extended regular expression.
