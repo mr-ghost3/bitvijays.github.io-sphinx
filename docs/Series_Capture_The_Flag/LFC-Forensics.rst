@@ -736,7 +736,7 @@ Others
 
  .. code-block :: bash
 
-   convert animation.gif target.png
+   convert animation.gif target.jpg
 
 * If the pdf-parser contains
 
