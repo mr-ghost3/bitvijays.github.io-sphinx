@@ -1,7 +1,7 @@
-.. Linux Essentials documentation master file, created by
-   sphinx-quickstart on Fri Jan 27 15:06:58 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Linux Essentials documentation master file, created by
+sphinx-quickstart on Fri Jan 27 15:06:58 2017.
+You can adapt this file completely to your liking, but it should at least
+contain the root `toctree` directive.
 
 
 # The Essentials : Linux Basics
