@@ -677,7 +677,15 @@ It can also be written as
 
 Command substitution allows the output of a command to replace the command itself. Command substitution occurs when a command is enclosed as follows:
 
+<<<<<<< HEAD
 or
+=======
+or 
+
+```bash
+`command`
+```
+>>>>>>> Update LFF-ESS-P0B-LinuxEssentials.md
 
 Bash performs the expansion by executing command and replacing the command substitution with the standard output of the command, with any trailing newlines deleted.
 
