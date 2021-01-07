@@ -827,13 +827,13 @@ x != y          : Check if x is not the same as y
 
 Command substitution allows the output of a command to replace the command itself. Command substitution occurs when a command is enclosed as follows:
   
-```sh
+```bash
 $(command)
 ```
 
 or 
 
-```sh
+```bash
 command
 ```
 
