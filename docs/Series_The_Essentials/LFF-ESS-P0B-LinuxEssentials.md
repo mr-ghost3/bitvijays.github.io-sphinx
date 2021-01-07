@@ -833,7 +833,7 @@ $(command)
 
 or 
 
-```
+```sh
 command
 ```
 
