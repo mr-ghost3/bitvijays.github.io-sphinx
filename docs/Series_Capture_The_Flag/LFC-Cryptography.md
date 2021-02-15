@@ -152,3 +152,23 @@ This is base85 : <+oue+DGm>@UX=h3&L
 * [Etc..](https://www.dcode.fr)
 
 > This all methods are use to convert your plaintext in to ciphertext so that your plain text is secure from others
+
+## EsoLangs
+
+> An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language.
+
+* [Befunge](https://www.tutorialspoint.com/compile_befunge_online.php)
+* [Binary lambda calculus](https://tromp.github.io/cl/Binary_lambda_calculus.html)
+* [Brainfuck](https://www.dcode.fr/brainfuck-language)
+* [FRACTRAN](http://lomont.org/posts/2017/fractran/)
+* [GolfScript](https://tio.run/#golfscript)
+* [INTERCAL](https://tio.run/#intercal)
+* [JSFuck](http://www.jsfuck.com/)
+* [LOLCODE](https://tio.run/#lolcode)
+* [Whitespace](https://tio.run/#whitespace)
+* [Unlambda](https://tio.run/#unlambda)
+* [Shakespeare](https://tio.run/#spl)
+* [Piet](https://tio.run/#piet)
+* [Malbolge](https://tio.run/#malbolge)
+
+> Listed above is diffrent kind of esolang and there is lot more. [Tio](https://tio.run/)
